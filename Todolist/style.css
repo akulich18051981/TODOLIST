@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1c1c1c;
+  max-width: 3000px;
+  text-align: center;
+  background-image: url(./img/abstraktsiia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input {
+  
+  margin: 20px 10px 0px 20px;
+  
+  padding: 12px 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: solid 2pxr rgb(146, 194, 13);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  color: #000000;
+}
+
+.cheken{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.cheken p{
+  margin: 30px 20px 10px 10px;
+  display: block;
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+.classLi {
+
+  display: flex;
+  justify-content: space-between;
+  transition: 0.8s;
+  width: 95%;
+  display: block;
+  margin: 5px auto 5px auto;
+  width: 900px;
+  padding: 7px 10px;
+  background-color: rgb(206, 206, 206);
+  border-radius: 10px;
+  border: solid 2px rgb(146, 194, 13);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: #000000;
+}
+
+.spannEdit {
+  text-align: center;
+  
+  
+}
+
+.none {
+  display: none !important;
+}
+
+.wrapper_modal {
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.621);
+  z-index: 2;
+}
+
+h3 {
+  margin: 10px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+form {
+  margin-inline: auto;
+  max-width: 360px;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #252525;
+  padding: 10px;
+
+
+}
+
+.wrapper_modal input {
+  margin-bottom: 20px;
+}
+
+.wr_button {
+  display: flex;
+  justify-content: center;
+
+}
+
+.wr_button button {
+  width: 150px;
+  height: 50px;
+  background: rgb(146, 194, 13);
+  border-radius: 10px;
+  border: #FFFFFF solid 2px;
+}
+
+.wr_btn_close {
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wr_form {
+  margin-bottom: 5px;
+
+}
+
+button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.btn_cl {
+  margin: 10px;
+}
+
+div {
+  margin: 10px;
+}
+
+h5 {
+  margin: 10px;
+  color: #FFFFFF;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+h2,
+.user {
+  color: #FFFFFF;
+  padding-top: 30px;
+}
+
+.btn_add,
+#buttonpoisk,
+.btn_sendForm {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(146, 194, 13);
+  border: rgb(255, 255, 255) solid 2px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.btnDel,
+.btnEdit {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(207, 207, 207);
+  border: rgb(146, 194, 13) solid 2px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 300;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.btn_cl {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(207, 207, 207);
+  border: rgb(184, 214, 14) solid 2px;
+  padding: 0px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000000;
+}

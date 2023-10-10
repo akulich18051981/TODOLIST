@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="wrapper_modal none">
+    <form action="">
+      <div class="wr_btn_close">
+        <button class="btn_cl" type="button">
+          &times;
+        </button>
+      </div>
+      <h3>Подтвердите:</h3>
+      <div>
+        <h5>Имя</h5>
+        <input type="text" id="editUserName">
+      </div>
+      <div>
+        <h5>Фамилия</h5>
+        <input type="text" id="editFirstUserName">
+      </div>
+      <div>
+        <h5>Дата рождения</h5>
+        <input type="date" id="editDateUserName">
+      </div>
+      <div>
+        <h5>E-mail</h5>
+        <input type="text" id="editEmailUserName">
+      </div>
+      <div class="wr_button">
+        <button type="button" class="btn_sendForm">Подтвердить</button>
+      </div>
+    </form>
+
+  </div>
+
+
+
+  <div class="wr_form">
+    <h2 class="user">Создать пользователя</h2>
+    <input type="text" placeholder="Имя пользователя" id="userName">
+    <input type="text" placeholder="Фамилия пользователя" id="lastName">
+    <input type="date" placeholder="Дата рождения" id="dataName">
+    <input type="email" placeholder="E-mail" id="emailName">
+    <div class="cheken">
+      <p class="checkbox">
+        <label for="evryImportant">Очень важно</label>
+        <input class="radio-input" type="radio" name="radio" id="evryImportant" value="Очень важно">
+      </p>
+      <p class="checkbox">
+        <label for="Important">Важно</label>
+        <input class="radio-input" type="radio" name="radio" id="Important" value="Важно">
+      </p>
+      <p class="checkbox">
+        <label for="NoImportant">Не важно</label>
+        <input class="radio-input" type="radio" name="radio" id="NoImportant" value="Не важно">
+      </p>
+      
+    </div>
+    <button class="btn_add">Создать карточку</button>
+  </div>
+
+
+  <ul class="container">
+
+  </ul>
+
+  <input type="text" placeholder="Поиск" id="poisk" value="">
+  <button type="submit" id="buttonpoisk"> Поиск по имени </button>
+  <script src="./script.js"></script>
+</body>
+
+</html>
